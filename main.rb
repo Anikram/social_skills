@@ -1,6 +1,6 @@
-require_relative 'lib/social_test'
+require_relative 'lib/test'
 
-test = SocialTest.new('data/social_test_questions.txt','data/social_test_results.txt')
+test = Test.new('data/social_test_questions.txt', 'data/social_test_results.txt')
 
 test.start_test
 

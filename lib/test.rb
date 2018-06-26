@@ -1,6 +1,6 @@
 require_relative 'question'
 
-class SocialTest
+class Test
 
   attr_reader :score, :results
 
