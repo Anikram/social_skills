@@ -12,7 +12,7 @@ class Question
 
   def initialize(question)
     @question = question
-    @answers = "а). да, б). нет, в). иногда"
+    @answers = "1). да, 2). нет, 3). иногда"
   end
 
   def read_question
